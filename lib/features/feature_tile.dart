@@ -1,8 +1,9 @@
-import 'package:amazon_clone/feature_item.dart';
 import 'package:flutter/material.dart';
 
+import 'feature_model.dart';
+
 class FeatureTile extends StatelessWidget {
-  final FeatureItem featureItem;
+  final FeatureModel featureItem;
   const FeatureTile({super.key, required this.featureItem});
 
   @override
